@@ -18,8 +18,6 @@ namespace StatFormCreator00
             InitializeComponent();
         }
 
-
-
         private void выйтиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -58,16 +56,8 @@ namespace StatFormCreator00
         private void button1_Click(object sender, EventArgs e)
         {
             AddSection Section = new AddSection();
-            //lbxSctn.Text = "01";
-
-            
-
+          
             Section.Show();
         }
     }
 }
-
-
-//if (lbxSctn.Items.Count > 0)
-//{
-//}
